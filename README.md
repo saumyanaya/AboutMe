@@ -1,11 +1,11 @@
 <h1 align="center">Hi 👋, I'm Saumya Nayak</h1>
-<h3 align="center">A passionate frontend developer from USA</h3>
+<h3 align="center">A passionate frontend Engineer from USA</h3>
 
-- 🌱 I’m currently learning **Javascript**
+- 🌱 I’m currently learning **React**
 
 - 👯 I’m looking to collaborate with other **Content Creators**
 
-- 💬 Ask me about **HTML and CSS**
+- 💬 Ask me about **HTML/CSS and Javascript**
 
 - 📫 How to reach me **nayaksaumya270@gmail.com**
 
