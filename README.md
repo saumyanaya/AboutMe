@@ -1,11 +1,9 @@
 <h1 align="center">Hi 👋, I'm Saumya Nayak</h1>
 <h3 align="center">Full Stack Web Developer from NJ</h3>
 
-- 🔭 I’m currently working on [Express.js](https://github.com/saumyanaya/se_project_react)
-
 - 👨‍💻 All of my projects are available at [https://github.com/saumyanaya](https://github.com/saumyanaya)
 
-- 💬 Ask me about **HTML,CSS,JAVASCRIPT,REACT,NODE,EXPRESS**
+- 💬 Ask me about **HTML5,CSS3,JAVASCRIPT,REACT,NODE,EXPRESS,MONGODB,GIT,NPM,BEM**
 
 - 📫 How to reach me **nayaksaumya270@gmail.com**
 
