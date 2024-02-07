@@ -1,0 +1,42 @@
+.header {
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding-top: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+  box-sizing: border-box;
+  position: relative;
+  background-color: #ffffff;
+  background-image: url(../images/background-header.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header__title {
+  max-width: 729px;
+  font-family: "Inter", "Arial", sans-serif;
+  color: rgb(111, 112, 112);
+  font-size: 50px;
+  line-height: 72px;
+  font-weight: 500;
+  position: relative;
+  z-index: 1;
+  margin-top: 202px;
+  margin-bottom: 0;
+}
+
+.header__description {
+  position: relative;
+  margin: 0;
+  margin-top: 28px;
+  color: rgb(165, 128, 91);
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 729px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 40px;
+  line-height: 30px;
+}

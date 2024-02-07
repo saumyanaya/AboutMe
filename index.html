@@ -4,70 +4,154 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="./page/index.css" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
+  <!-- header section -->
   <body>
     <div class="page">
       <header class="header">
-        <h1 class="header__description">
-          <span class="header__span-accent">Hi, my name is Saumya Nayak. </span>
-          <span>I'm a Full-stack Web Developer</span>
-        </h1>
-        
-        <ul class="nav__links">
-          <li>
-            <a href="#Projects" class="nav__link">Projects</a>
-          </li>
-          <li>
-            <a href="#Github" class="nav__link">
-              <img
-                class="header__social-icon"
-                src="./images/Github.svg"
-                alt="Github logo"
-            /></a>
-          </li>
-          <li>
-            <a href="#LinkedIn" class="nav__link">
-              <img
-                class="header__social-icon"
-                src="./images/LinkedIn.svg"
-                alt="LinkedIn logo"
-            /></a>
-          </li>
-        </ul>
-      </header>
+        <h1 class="header__title">Hi, my name is Saumya Nayak</h1>
+        <h1 class="header__description">I'm a Full-stack Web Developer</h1>
 
-
-      <section class="ABOUT ME">
-        <div class="about__image"></div>
-        <div class="about__image about__image_animation"></div>
-        <div class="about__content">
-          <p class="about__paragraph">
-            I'm a software engineer proficient in JavaScript, Node, and React. I
-            transitioned from teaching background to web development to help
-            companies create responsive, scalable, and maintainable web
-            experiences. My latest work involves implementing UI's in React and
-            integration with APIs at Triple Ten Bootcamp New Jersey, NJ
-          </p>
+        <!--nav section  -->
+        <nav class="nav">
           <ul class="nav__links">
             <li>
-              <a href="#Download Resume" class="nav__link">Download Resume</a>
+              <a href="#Projects" class="nav__link">Projects</a>
             </li>
-        </div>
-      </section>
+            <li>
+              <a href="#Github">
+                <img
+                  class="nav__icon"
+                  src="./images/Github.svg"
+                  alt="Github logo"
+              /></a>
+            </li>
+            <li>
+              <a href="#LinkedIn">
+                <img
+                  class="nav__icon"
+                  src="./images/LinkedIn.svg"
+                  alt="LinkedIn logo"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
+      <!-- about section -->
+      <main class="content">
+        <section class="about__me" id="Download Resume">
+          <h2 class="about__title">ABOUT ME</h2>
+          <img src="./images/My-picture.jpg" alt="Photo" class="about__image" />
+          <div class="about__content">
+            <p class="about__description">
+              I'm a software engineer proficient in JavaScript, Node, and React.
+              I transitioned from teaching background to web development to help
+              companies create responsive, scalable, and maintainable web
+              experiences. My latest work involves implementing UI's in
+              JavaScript, React and integration with APIs at Triple Ten
+              Bootcamp.
+            </p>
+            <p class="about__description">Parsipanny, NJ</p>
+            <ul class="about__links">
+              <li>
+                <a href="#Download Resume" class="about__link"
+                  >Download Resume</a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
 
-      <section class="PROJECTS">
-        <div class="project__coffeeshop"></div>
-        <div class="project__aroundtheus"></div>
-        <div class="project__react"></div>
-        <div class="project__express"></div>
-     </section>
+        <!-- project section -->
+        <section class="projects">
+          <h3 class="projects__title">PROJECTS</h3>
+          <div class="projects__content">
+            <h4 class="projects__heading">What to Wear</h4>
+            <h5 class="projects__subhead">
+              Javascript, Node.js, Express.js, React.js, MongoDB
+            </h5>
+            <p class="projects__description">
+              About the project The idea of the application is pretty simple -
+              we make a call to an API, which then responds with the daily
+              weather forecast. We collect the weather data, process it, and
+              then based on the forecast, we recommend suitable clothing to the
+              user. This app was created with Create-React-App. The development
+              process was done in 2-week agile sprints. The backend is built in
+              Node/Express.js and served on cloud server. User and clothing data
+              are stored in MongoDB.
+            </p>
+            <ul class="projects__links">
+              <li>
+                <a href="#Github" class="projects__link">FrontEnd</a>
+              </li>
+              <li>
+                <a href="#Github" class="projects__link">BackEnd</a>
+              </li>
+            </ul>
+            <h4 class="projects__heading">Around the U.S</h4>
+            <h5 class="projects__subhead">JavaScript</h5>
+            <p class="projects__description">
+              Around the U.S. is an Instagram-like content-sharing app.The app
+              features user profile registration and login. Authenticated users
+              are redirected to the main page and can add pictures to the
+              gallery and see the cards created by other users. Additionally,
+              the users can like/dislike or remove pictures. Applied
+              asynchronous programming concepts in JavaScript, such as
+              callbacks, promises. Interact with APIs to fetch external data and
+              use it for additional interactivity of a web application. The page
+              is responsive and scales up to different screen resolutions.
+            </p>
+            <ul class="projects__links">
+              <li>
+                <a href="#Github" class="projects__link">FrontEnd</a>
+              </li>
+            </ul>
+            <h4 class="projects__heading">Triple Espresso</h4>
+            <h5 class="projects__subhead">HTML5 & CSS</h5>
+            <p class="projects__description">
+              This is a landing page that I created during my web development
+              training program. It demonstrates my proficiency in semantic HTML,
+              CSS (flexbox, grid, animations), and BEM methodology and ability
+              to create layouts from designs provided in Figma.
+            </p>
+            <ul class="projects__links">
+              <li>
+                <a href="#Github" class="projects__link">FrontEnd</a>
+              </li>
+            </ul>
+            <div class="projects__demo">
+              <div>
+                <iframe class="projects__iframe" src="https://www.youtube.com/embed/Ab2xAWl_lyI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+          </div>
+        </section>
+      </main>
 
-     <footer class="FOOTER">
+      <!-- footer section -->
+      <footer class="footer">
         <div class="footer__contact">CONTACT ME</div>
-        <div class="footer__email">gmail-nayaksaumya270@gmail.com</div>
-    
-     </footer>
+
+        <img
+          class="footer__email"
+          src="./images/icons8-gmail.svg"
+          alt="email logo"
+        />
+        nayaksaumya270@gmail.com
+      </footer>
     </div>
   </body>
 </html>

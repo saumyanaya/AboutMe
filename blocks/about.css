@@ -1,0 +1,74 @@
+.about__me {
+  background-image: url(../images/background-about.jpg);
+  color: #6d7807;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding-top: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+  box-sizing: border-box;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about__title {
+  padding-top: 100px;
+  max-width: 251px;
+  padding-left: 500px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  z-index: 1;
+  line-height: 52px;
+  margin: 0;
+}
+
+.about__image {
+  padding-left: 100px;
+  max-width: 500px;
+  max-height: 500px;
+  left: 5px;
+  top: 124px;
+  z-index: auto;
+  position: absolute;
+}
+.about__content {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  padding-right: 80px;
+}
+
+.about__description {
+  margin-bottom: 0px;
+  display: flex;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-left: 500px;
+  padding-right: 80px;
+  font-size: 20px;
+}
+
+.about__links {
+  column-gap: 20px;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  list-style-type: none;
+  width: 100%;
+  padding: 60px;
+}
+.about__link {
+  color: #686466;
+  text-decoration: none;
+  transition: color 1s linear;
+  border-style: solid;
+}
+.about__link:hover {
+  color: #2f80ed;
+}
