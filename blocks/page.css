@@ -3,5 +3,5 @@
   display: flex;
   flex-direction: column;
   font-family: "Inter", Arial, sans-serif;
-  overflow: -moz-hidden-unscrollable;
+  overflow-x: -moz-hidden-unscrollable;
 }
