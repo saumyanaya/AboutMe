@@ -1,8 +1,19 @@
-page {
-  min-width: 1100px;
-  max-width: 1600px;
-  margin: 0 auto;
+.page {
+  /* max-width: 880px; */ /*TODO*/
+  /* width: 100%; */
+  position: relative;
+  /* margin: 0 auto; */
+  display: flex;
+  flex-direction: column;
+  /* min-height: 100vh; */
   font-family: "Inter", Arial, sans-serif;
-  font-size: 16px;
-  line-height: 20px;
+  overflow: -moz-hidden-unscrollable;
 }
+
+/*TODO*/
+/* @media screen and (max-width: 1100px) {
+  .page {
+    margin-left: 19px;
+    width: calc(100% - 40px);
+  }
+} */

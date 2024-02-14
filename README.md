@@ -3,6 +3,8 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/saumyanaya](https://github.com/saumyanaya)
 
+- 👨‍💻 Portfolio is responsive at **1280 and above**
+
 - 💬 Ask me about **HTML5,CSS3,JAVASCRIPT,REACT,NODE,EXPRESS,MONGODB,GIT,NPM,BEM**
 
 - 📫 How to reach me **nayaksaumya270@gmail.com**

@@ -1,8 +1,8 @@
 .projects {
   background-image: url(../images/background-projects.jpg);
   padding-top: 30px;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 100px;
+  padding-right: 100px;
   box-sizing: border-box;
   position: relative;
   background-position: center;
@@ -12,7 +12,7 @@
 
 .projects__title {
   padding-top: 100px;
-  max-width: 251px;
+  /*max-width: 251px;*/ /*TODO*/
   padding-left: 500px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -20,27 +20,26 @@
   font-size: 44px;
   z-index: 1;
   line-height: 52px;
-  margin: 0;
+  /* margin: 0; */
 }
 
 .projects__demo {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  padding-right: 100px;
   padding-bottom: 50px;
 }
 .projects__iframe {
   height: 273px;
   width: 480px;
   display: flex;
-  justify-content: flex-end;
   border: 0;
 }
 
 .projects__content {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 100;
   font-size: 20px;
   line-height: 30px;
   padding-left: 80px;
@@ -61,16 +60,18 @@
   margin-bottom: 0px;
   display: flex;
   margin-top: 20px;
+  font-weight: 100;
   font-size: 20px;
+  padding-right: 100px;
 }
 .projects__links {
   column-gap: 20px;
   display: flex;
-  margin: 0;
   justify-content: flex-start;
   list-style-type: none;
-  width: 100%;
+  /* width: 100%; */
   padding: 20px;
+  margin-left: 325px;
 }
 .projects__link {
   color: #6987eb;
