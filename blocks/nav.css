@@ -17,7 +17,6 @@
   margin: 0;
   justify-content: flex-start;
   list-style-type: none;
-  /* width: 100%; */
   padding: 40px;
 }
 
@@ -40,12 +39,3 @@
 .nav__link:hover {
   color: #2f80ed;
 }
-/* @media screen and (min-width: 320px) and (max-width: 700px) {
-  .nav__links {
-    font-size: 10px;
-  }
-
-  .nav__icon {
-    font-size: 5px;
-  }
-} */
